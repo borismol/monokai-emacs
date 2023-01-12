@@ -356,8 +356,8 @@ Also affects 'linum-mode' background."
                                           monokai-256-yellow)))))
 
    `(font-lock-function-name-face
-     ((,monokai-class (:foreground ,monokai-green))
-      (,monokai-256-class (:foreground ,monokai-256-green))))
+     ((,monokai-class (:inherit default))
+      (,monokai-256-class (:inherit default))))
 
    `(font-lock-keyword-face
      ((,monokai-class (:foreground ,monokai-red
@@ -398,8 +398,8 @@ Also affects 'linum-mode' background."
                                         :italic nil))))
 
    `(font-lock-variable-name-face
-     ((,monokai-class (:foreground ,monokai-orange))
-      (,monokai-256-class (:foreground ,monokai-256-orange))))
+     ((,monokai-class (:inherit default))
+      (,monokai-256-class (:inherit default))))
 
    `(font-lock-warning-face
      ((,monokai-class (:foreground ,monokai-orange
